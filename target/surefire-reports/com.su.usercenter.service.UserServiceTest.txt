@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.su.usercenter.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.669 s <<< FAILURE! - in com.su.usercenter.service.UserServiceTest
+register  Time elapsed: 0.016 s  <<< ERROR!
+com.su.usercenter.exception.BusinessException: 请求参数错误
+	at com.su.usercenter.service.UserServiceTest.register(UserServiceTest.java:43)
+

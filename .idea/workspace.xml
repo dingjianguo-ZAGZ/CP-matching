@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b06ab2dd-c125-48e9-a3ff-e6bfdf228421" name="更改" comment="test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="jar://$APPLICATION_HOME_DIR$/plugins/restClient/lib/restClient.jar!/com/intellij/ws/rest/client/requests/collection/post-requests.http" environment="test" />
+    <file url="file://$USER_HOME$/AppData/Local/Temp/whats-new-dir/whats-new.http" environment="test" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+        <option name="userSettingsFile" value="E:\softWare\maven\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lmbwRlDtleuYui9l5Um7nwa8Vn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;HTTP 请求.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP 请求.rest-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertUserTest.doInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedisTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RedissionTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleTest.testSelect.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserCenterApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.register.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.selectUserByTags.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserServiceTest.testAddUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.user-center [org.apache.maven.plugins:maven-jar-plugin:3.2.2:jar].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.user-center [package].executor&quot;: &quot;Run&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;数据库检测器&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.UserCenterApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.YuPaoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/后端项目/code-partnerMatching/yupao-backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;应用程序.ImportExcel.executor&quot;: &quot;Run&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\后端项目\user-center\src\img" />
+      <recent name="E:\后端项目\user-center\src\main\resources" />
+      <recent name="E:\ideaPrograme\user-center\src\main\resources" />
+      <recent name="E:\ideaPrograme\user-center\src\main\java\com\su\usercenter\service" />
+      <recent name="E:\ideaPrograme\user-center\src\main\java\com\su\usercenter\model" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.su.usercenter.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.su.usercenter.config" />
+      <recent name="com.su.usercenter.model.domain" />
+      <recent name="com.su.usercenter.mapper" />
+      <recent name="com.su.usercenter.model.domain.request" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RedissionTest.test">
+    <configuration name="ImportExcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.su.yupao.once.ImportExcel" />
+      <module name="yupao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.once.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertUserTest.doInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yupao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.su.usercenter.service" />
+      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.InsertUserTest" />
+      <option name="METHOD_NAME" value="doInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yupao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.su.yupao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.RedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yupao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.su.yupao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.RedissionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="yupao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.su.yupao.UserCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YuPaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yupao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.su.yupao.YuPaoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedissionTest.test" />
+        <item itemvalue="Spring Boot.YuPaoApplication" />
+        <item itemvalue="JUnit.RedisTest.test" />
+        <item itemvalue="JUnit.InsertUserTest.doInsert" />
+        <item itemvalue="应用程序.ImportExcel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b06ab2dd-c125-48e9-a3ff-e6bfdf228421" name="更改" comment="" />
+      <created>1725693703089</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725693703089</updated>
+      <workItem from="1725788438930" duration="5108000" />
+      <workItem from="1725808721938" duration="101000" />
+      <workItem from="1725842100050" duration="4836000" />
+      <workItem from="1725880565849" duration="871000" />
+      <workItem from="1725881458716" duration="8802000" />
+      <workItem from="1725943049173" duration="20906000" />
+      <workItem from="1726018114844" duration="5443000" />
+      <workItem from="1726040232676" duration="2663000" />
+      <workItem from="1726121517662" duration="1036000" />
+      <workItem from="1726296309821" duration="778000" />
+      <workItem from="1726314013908" duration="2154000" />
+      <workItem from="1726316924793" duration="3199000" />
+      <workItem from="1726473130364" duration="1203000" />
+      <workItem from="1727138618674" duration="18000" />
+      <workItem from="1727138965424" duration="42000" />
+      <workItem from="1727139280180" duration="59000" />
+      <workItem from="1736493060566" duration="2206000" />
+      <workItem from="1736502472015" duration="3677000" />
+      <workItem from="1736567056507" duration="2656000" />
+      <workItem from="1736655515412" duration="6771000" />
+      <workItem from="1736743944223" duration="10699000" />
+      <workItem from="1736831835312" duration="12818000" />
+      <workItem from="1736916572121" duration="10602000" />
+      <workItem from="1737006672592" duration="392000" />
+      <workItem from="1737007123507" duration="8298000" />
+      <workItem from="1737096701629" duration="677000" />
+      <workItem from="1737097913953" duration="359000" />
+      <workItem from="1737098283276" duration="139000" />
+      <workItem from="1737098526946" duration="4401000" />
+      <workItem from="1737188286424" duration="2644000" />
+      <workItem from="1740974260486" duration="119000" />
+      <workItem from="1740985857142" duration="1275000" />
+    </task>
+    <task id="LOCAL-00001" summary="git init">
+      <option name="closed" value="true" />
+      <created>1726314407326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726314407326</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1726316970811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726316970811</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git init" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/su/yupao/service/UserServiceTest.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
