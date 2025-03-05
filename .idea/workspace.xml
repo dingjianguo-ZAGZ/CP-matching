@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b06ab2dd-c125-48e9-a3ff-e6bfdf228421" name="更改" comment="test">
+    <list default="true" id="b06ab2dd-c125-48e9-a3ff-e6bfdf228421" name="更改" comment="修改数据库bug，与前端联合测试通过">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -309,7 +309,7 @@
       <workItem from="1740985857142" duration="1275000" />
       <workItem from="1741009405929" duration="1309000" />
       <workItem from="1741085565412" duration="8237000" />
-      <workItem from="1741160549646" duration="2963000" />
+      <workItem from="1741160549646" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />
@@ -327,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726316970811</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改数据库bug，与前端联合测试通过">
+      <option name="closed" value="true" />
+      <created>1741164738807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741164738807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +344,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git init" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="修改数据库bug，与前端联合测试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改数据库bug，与前端联合测试通过" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
