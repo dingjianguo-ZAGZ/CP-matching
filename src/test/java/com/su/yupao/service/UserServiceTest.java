@@ -18,15 +18,15 @@ class UserServiceTest {
     @Test
     public void testAddUser() {
         User user = new User();
-        user.setUsername("ming");
-        user.setUserAccount("2122");
+        user.setUsername("susu");
+        user.setUserAccount("s20250325");
         user.setAvatarUrl("\"D:\\img\\school.jpg\"");
         user.setGender(0);
-        user.setUserPassword("111222");
+        user.setUserPassword("Susu0606");
         user.setPhone("111222");
         user.setEmail("111222");
         boolean result = userService.save(user);
-        System.out.println(user.getId());//mybatis-plus主键自动回填
+        System.out.println("id = "+user.getId());//mybatis-plus主键自动回填
         Assertions.assertEquals(true, result);
 
 
@@ -35,9 +35,9 @@ class UserServiceTest {
     @Test
     void register() {
         //测试非空
-        String userAccount = "suhongrun";
+        String userAccount = "suhongrun6";
         String userPassword = "";
-        String checkPassword = "12345678";
+        String checkPassword = "12345678a";
         String planetCode = "223";
         long result = userService.Register(userAccount, userPassword, checkPassword,planetCode);
         Assertions.assertEquals(-1, result);

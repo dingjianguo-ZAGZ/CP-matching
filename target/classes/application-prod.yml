@@ -1,9 +1,9 @@
 spring:
   application:
-    name: user-center
+    name: yupao
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/su
+    url: jdbc:mysql://localhost:3306/cpmatch
     username: root
     password: root
   session:
