@@ -3,7 +3,7 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="yupao" value="user-center" />
+        <entry key="cpmatch" value="user-center" />
       </map>
     </option>
   </component>

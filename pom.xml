@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.su</groupId>
-    <artifactId>yupao</artifactId>
+    <artifactId>cpmatch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>user-center</name>
-    <description>user-center</description>
+    <name>cp-match</name>
+    <description>cp-match</description>
     <url/>
     <licenses>
         <license/>

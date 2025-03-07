@@ -33,8 +33,8 @@ import static com.su.yupao.constant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
-@CrossOrigin
 @Slf4j
+@CrossOrigin(origins = { "http://localhost:3000" })
 public class UserController {
     @Autowired
     private UserService userService;
@@ -108,7 +108,7 @@ public class UserController {
         //获取当前登录用户
         User loginUser = userService.getLoginUser(request);
         //redis的查询key
-        String redisKey = String.format("yupao:user:recommend:%s", loginUser.getId());
+        String redisKey = String.format("cpmatch:user:recommend:%s", loginUser.getId());
         ValueOperations valueOperations = redisTemplate.opsForValue();
         //如果有缓存，直接读缓存
         Page<User> userPage  = (Page<User>) valueOperations.get(redisKey);
@@ -173,6 +173,11 @@ public class UserController {
         return ResultUtils.success(result);
     }
 
+    /**
+     * 根据标签查询用户
+     * @param tagNameList
+     * @return
+     */
     @GetMapping("/search/tags")
     public BaseResponse<List<User>> selectUserByTags(@RequestParam(required = false) List<String> tagNameList){
         if(CollectionUtils.isEmpty(tagNameList)){
@@ -181,6 +186,13 @@ public class UserController {
         List<User> userList = userService.selectUserByTags(tagNameList);
         return ResultUtils.success(userList);
     }
+
+    /**
+     * 更新用户
+     * @param user
+     * @param request
+     * @return
+     */
     @PostMapping("/update")
     public BaseResponse<Integer> updateUser(@RequestBody User user,HttpServletRequest request){
         if(user == null){

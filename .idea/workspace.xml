@@ -5,17 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b06ab2dd-c125-48e9-a3ff-e6bfdf228421" name="更改" comment="修改数据库bug，与前端联合测试通过">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/config/WebMvcConfg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/config/WebMvcConfg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/model/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/model/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/YuPaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/YuPaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/su/yupao/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/su/yupao/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/su/yupao/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/su/yupao/service/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/su/yupao/service/RedissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/su/yupao/service/RedissionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/prodExcel.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testExcel.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.su.usercenter.UserCenterApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.su.usercenter.service.UserServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.su.usercenter.UserCenterApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.su.usercenter.service.UserServiceTest.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +82,7 @@
   <component name="ProjectId" id="2lmbwRlDtleuYui9l5Um7nwa8Vn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="flattenModules" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -82,13 +96,16 @@
     "JUnit.InsertUserTest.doInsert.executor": "Run",
     "JUnit.RedisTest.test.executor": "Run",
     "JUnit.RedissionTest.test.executor": "Run",
+    "JUnit.RedissionTest.testWatchDog.executor": "Run",
     "JUnit.SampleTest.testSelect.executor": "Run",
     "JUnit.UserCenterApplicationTests.executor": "Run",
     "JUnit.UserServiceTest.register.executor": "Run",
     "JUnit.UserServiceTest.selectUserByTags.executor": "Debug",
     "JUnit.UserServiceTest.testAddUser.executor": "Run",
+    "Maven.cpmatch [package].executor": "Run",
     "Maven.user-center [org.apache.maven.plugins:maven-jar-plugin:3.2.2:jar].executor": "Run",
     "Maven.user-center [package].executor": "Run",
+    "Maven.yupao [package].executor": "Run",
     "Notification.DisplayName-DoNotAsk-Database detector": "数据库检测器",
     "Notification.DoNotAsk-Database detector": "true",
     "Repository.Attach.Annotations": "false",
@@ -104,10 +121,11 @@
     "Spring Boot.YuPaoApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/后端项目/code-partnerMatching/yupao-backend",
+    "last_opened_file_path": "E:/伙伴匹配系统后端代码/yupao-backend-master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,9 +168,14 @@
       <recent name="com.su.usercenter.model.domain.request" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.YuPaoApplication">
+  <component name="RunManager" selected="JUnit.RedissionTest.testWatchDog">
+    <configuration name="user.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="aa6c8eaa-aaa2-43bd-9654-ec01a64d8a29/schema/cpmatch/table/user.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="InsertUserTest.doInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yupao" />
+      <module name="cpmatch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.su.yupao.service.*" />
@@ -167,8 +190,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedissionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yupao" />
+    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cpmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.su.yupao.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.su.yupao.service" />
+      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.RedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedissionTest.testWatchDog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cpmatch" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.su.yupao.service.*" />
@@ -177,39 +216,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.su.yupao.service" />
       <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.RedissionTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.register" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yupao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.su.yupao.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.su.yupao.service" />
-      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="register" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yupao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.su.yupao.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.su.yupao.service" />
-      <option name="MAIN_CLASS_NAME" value="com.su.yupao.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="METHOD_NAME" value="testWatchDog" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,14 +237,14 @@
     </configuration>
     <configuration name="UserCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <module name="yupao" />
+      <module name="cpmatch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.su.yupao.UserCenterApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="YuPaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="yupao" />
+      <module name="cpmatch" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.su.yupao.YuPaoApplication" />
       <extension name="coverage">
         <pattern>
@@ -251,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedissionTest.testWatchDog" />
         <item itemvalue="Spring Boot.YuPaoApplication" />
-        <item itemvalue="JUnit.UserServiceTest.testAddUser" />
+        <item itemvalue="JUnit.RedisTest.test" />
         <item itemvalue="JUnit.InsertUserTest.doInsert" />
-        <item itemvalue="JUnit.UserServiceTest.register" />
-        <item itemvalue="JUnit.RedissionTest.test" />
+        <item itemvalue="数据库脚本.user.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +316,13 @@
       <workItem from="1740985857142" duration="1275000" />
       <workItem from="1741009405929" duration="1309000" />
       <workItem from="1741085565412" duration="8237000" />
-      <workItem from="1741160549646" duration="3372000" />
+      <workItem from="1741160549646" duration="8754000" />
+      <workItem from="1741172464479" duration="5576000" />
+      <workItem from="1741180275630" duration="2748000" />
+      <workItem from="1741251585728" duration="3504000" />
+      <workItem from="1741258475214" duration="2362000" />
+      <workItem from="1741332368171" duration="4117000" />
+      <workItem from="1741342739763" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <option name="closed" value="true" />
@@ -335,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741164738807</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改数据库bug，与前端联合测试通过">
+      <option name="closed" value="true" />
+      <created>1741164757178</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741164757178</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,20 +371,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/su/yupao/controller/UserController.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/su/yupao/service/impl/UserServiceImpl.java</url>
-          <line>119</line>
-          <properties class="com.su.yupao.service.impl.UserServiceImpl" method="userLogin">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/su/yupao/service/UserService.java</url>
           <line>30</line>
@@ -372,6 +379,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/su/yupao/service/RedisTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

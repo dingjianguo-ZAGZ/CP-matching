@@ -200,14 +200,13 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         QueryWrapper<User> queryWrapper = new QueryWrapper();
         //从内存中查询
         //先查询出所有用户
-        List<User> users = userMapper.selectList(queryWrapper);
+        List<User> userList = userMapper.selectList(queryWrapper);
         //在内存中进行筛选
         //将json字符串转换为集合
         Gson gson = new Gson();
-        return users.parallelStream().filter(
+        return userList.stream().filter(
                 user -> {
                     String tags = user.getTags();
-
                     Set<String> tempTagNameList = gson.fromJson(tags, new TypeToken<Set<String>>(){}.getType());
                     //从数据库中取出来的数据，要判断是否为空
                     tempTagNameList = Optional.ofNullable(tempTagNameList).orElse(new HashSet<>());
@@ -231,23 +230,22 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     @Override
     public int updateUser(User user, User loginUser) {
         //获取id
-        long id = user.getId();
-        if(id <= 0){
+        long userId = user.getId();
+        if(userId <= 0){
             throw new BusinessException(ErrorCode.NULL_ERROR);
         }
         //TODO如果用户没有传任何要更新的值，就直接报错，不用执行 update 语句
         //验证登录用户是否为管理员或自己
-        if(!isAdmin(loginUser) || id != loginUser.getId()){
+        if (!isAdmin(loginUser) && userId != loginUser.getId()) {
             throw new BusinessException(ErrorCode.NO_AUTH);
         }
         //触发修改
         //根据 id 修改用户
-        User oldUser = userMapper.selectById(id);
-        if(oldUser == null){
+        User oldUser = userMapper.selectById(userId);
+        if (oldUser == null) {
             throw new BusinessException(ErrorCode.NULL_ERROR);
         }
-        int result = userMapper.updateById(user);
-        return result;
+        return userMapper.updateById(user);
     }
 
     /**
@@ -290,8 +288,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
      * @param user
      * @return
      */
-    public boolean isAdmin(User user
-    ){
+    public boolean isAdmin(User user){
         //鉴权
         //获取用户登录态
         Integer userObj = user.getUserRole();
@@ -317,9 +314,6 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
         }
         return (User) userObj;
     }
-
-
-
 }
 
 

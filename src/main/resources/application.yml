@@ -16,10 +16,11 @@ spring:
       matching-strategy: ant_path_matcher
   profiles:
     active: dev
+  #redis配置
   redis:
     port: 6379
     host: localhost
-    database: 0
+    database: 1 #默认使用0库
 
 server:
   port: 8080

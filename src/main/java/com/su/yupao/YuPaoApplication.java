@@ -10,7 +10,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 //在springboot中开启对定时任务的支持
 @EnableScheduling
 public class YuPaoApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(YuPaoApplication.class, args);
     }
